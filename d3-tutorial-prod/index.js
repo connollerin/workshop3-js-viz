@@ -18,7 +18,10 @@ window.onload = function(){
   }
 
   // ADD THE attributesEnter HERE!
-  // var attributesEnter = ;
+  var attributesEnter = [{color: 'red', r: 40, cx: 100},  //example line
+                  {color: '/////', r: 20, cx: 120},
+                  {color: '////', r: 60, cx: 400},
+                  {color: '////', r: 50, cx: 220}];
 
   var zoom = d3.behavior.zoom()
                       .scaleExtent([1, 5])
